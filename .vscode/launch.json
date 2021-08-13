@@ -1,0 +1,21 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "rename",
+      "type": "python",
+      "request": "launch",
+      "program": "scripts/renamer.py",
+      "console": "integratedTerminal",
+      "args": [
+        "-i",
+        "$HOME/data/ros1/convert/input.bag",
+        "-p",
+        "camera"
+      ]
+    },
+  ]
+}
