@@ -1,4 +1,4 @@
-# Bag Topic Reanmer
+# Bag Topic Renamer
 This package renames topic names that are invalid in ROS2.
 
 ## Requirements
